@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/12/16 10:38:00.000.039,=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/19 23:01:05.000.744,=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/19 23:02:20.000.193,=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/20 01:03:40.000.348,=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/12 19:05:45.000.698,=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/12 19:06:36.000.464,C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\uMain.dfm</Transaction>
+    <Transaction>2022/01/12 19:06:36.000.464,C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\uMain.pas</Transaction>
+    <Transaction>2022/01/12 19:07:15.000.191,C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\ProjectUTS.dproj</Transaction>
+    <Transaction>2022/01/12 19:07:22.000.111,C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\uMain.pas=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\UTS\uMain.pas</Transaction>
+    <Transaction>2022/01/12 19:07:22.000.111,C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\uMain.dfm=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\UTS\uMain.dfm</Transaction>
+    <Transaction>2022/01/12 19:07:24.000.490,C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\ProjectUTS.dproj=C:\Users\NEW EDHOCATION\Documents\Embarcadero\Studio\Projects\UTS\ProjectUTS.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

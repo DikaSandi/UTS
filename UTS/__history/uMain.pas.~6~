@@ -1,0 +1,61 @@
+unit uMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.StdCtrls, Vcl.Mask,
+  Vcl.ExtCtrls, Vcl.Menus, System.Actions, Vcl.ActnList;
+
+type
+  TfMain = class(TForm)
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    GroupBox1: TGroupBox;
+    GroupBox2: TGroupBox;
+    ListView1: TListView;
+    StatusBar1: TStatusBar;
+    Label1: TLabel;
+    OpenDialog1: TOpenDialog;
+    FileName: TLabeledEdit;
+    Label2: TLabel;
+    ButtonSimpan: TButton;
+    ButtonHapus: TButton;
+    ListBox1: TListBox;
+    Edit1: TEdit;
+    AL1: TActionList;
+    ActSimpan: TAction;
+    ActHapus: TAction;
+    ActTambah: TAction;
+    ActUbah: TAction;
+    ActBuka: TAction;
+    ActListFile: TAction;
+    ActHapusFile: TAction;
+    ActUbahFile: TAction;
+    PMenu1: TPopupMenu;
+    N1: TMenuItem;
+    OpenFile1: TMenuItem;
+    EditFile1: TMenuItem;
+    DeleteFile1: TMenuItem;
+    Save1: TMenuItem;
+    Delete1: TMenuItem;
+    Insert1: TMenuItem;
+    Edit2: TMenuItem;
+
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fMain: TfMain;
+
+implementation
+
+{$R *.dfm}
+
+
+
+end.

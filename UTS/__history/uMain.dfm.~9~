@@ -1,0 +1,246 @@
+object fMain: TfMain
+  Left = 0
+  Top = 0
+  Caption = 'Daftar Alumni'
+  ClientHeight = 487
+  ClientWidth = 930
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 15
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 0
+    Width = 931
+    Height = 487
+    ActivePage = TabSheet1
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Main Source'
+      object GroupBox1: TGroupBox
+        Left = 3
+        Top = 0
+        Width = 917
+        Height = 81
+        Caption = 'Document Title'
+        TabOrder = 0
+        object Label1: TLabel
+          Left = 8
+          Top = 20
+          Width = 30
+          Height = 15
+          Caption = 'Path :'
+        end
+        object Label2: TLabel
+          Left = 53
+          Top = 20
+          Width = 67
+          Height = 15
+          Caption = 'File Location'
+        end
+        object FileName: TLabeledEdit
+          Left = 64
+          Top = 40
+          Width = 593
+          Height = 23
+          EditLabel.Width = 53
+          EditLabel.Height = 15
+          EditLabel.Caption = 'File Name'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -12
+          Font.Name = 'Segoe UI'
+          Font.Style = [fsItalic]
+          LabelPosition = lpLeft
+          ParentFont = False
+          TabOrder = 0
+          Text = ''
+          TextHint = 'Search File Location'
+        end
+      end
+      object GroupBox2: TGroupBox
+        Left = 2
+        Top = 87
+        Width = 206
+        Height = 345
+        Caption = 'Options'
+        TabOrder = 1
+        object ButtonSimpan: TButton
+          Left = 2
+          Top = 17
+          Width = 202
+          Height = 25
+          Align = alTop
+          Caption = 'Save File'
+          TabOrder = 0
+          ExplicitLeft = 3
+          ExplicitTop = 18
+          ExplicitWidth = 200
+        end
+        object ButtonHapus: TButton
+          Left = 2
+          Top = 42
+          Width = 202
+          Height = 25
+          Align = alTop
+          Caption = 'Delet File'
+          TabOrder = 1
+          ExplicitLeft = 3
+          ExplicitTop = 45
+          ExplicitWidth = 200
+        end
+        object ListBox1: TListBox
+          Left = 2
+          Top = 90
+          Width = 202
+          Height = 252
+          Align = alTop
+          ItemHeight = 15
+          TabOrder = 2
+        end
+        object Edit1: TEdit
+          Left = 2
+          Top = 67
+          Width = 202
+          Height = 23
+          Align = alTop
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -12
+          Font.Name = 'Segoe UI'
+          Font.Style = [fsItalic]
+          ParentFont = False
+          TabOrder = 3
+          TextHint = 'Search File Name'
+        end
+      end
+      object ListView1: TListView
+        Left = 214
+        Top = 96
+        Width = 706
+        Height = 336
+        Columns = <
+          item
+            Caption = 'No'
+            Width = 25
+          end
+          item
+            Caption = 'Nama'
+            Width = 200
+          end
+          item
+            Caption = 'Alamat'
+          end
+          item
+            Caption = 'Pekerjaan'
+          end
+          item
+            Caption = 'Keterangan'
+          end>
+        TabOrder = 2
+      end
+      object StatusBar1: TStatusBar
+        Left = 0
+        Top = 438
+        Width = 923
+        Height = 19
+        Panels = <
+          item
+            Text = 'Jumlah File :'
+            Width = 75
+          end
+          item
+            Width = 100
+          end
+          item
+            Text = 'Jumlah Data :'
+            Width = 85
+          end
+          item
+            Width = 100
+          end>
+        ExplicitWidth = 825
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 688
+    Top = 48
+  end
+  object AL1: TActionList
+    Left = 472
+    Top = 192
+    object ActSimpan: TAction
+      Caption = 'Simpan'
+      ShortCut = 16467
+    end
+    object ActHapus: TAction
+      Caption = 'Hapus'
+      ShortCut = 46
+    end
+    object ActTambah: TAction
+      Caption = 'Tambah'
+      ShortCut = 16457
+    end
+    object ActUbah: TAction
+      Caption = 'Ubah'
+      ShortCut = 113
+    end
+    object ActBuka: TAction
+      Caption = 'Buka'
+      ShortCut = 16463
+    end
+    object ActListFile: TAction
+      Caption = 'Daftar File'
+      ShortCut = 16460
+    end
+    object ActHapusFile: TAction
+      Caption = 'Hapus File'
+      ShortCut = 8238
+    end
+    object ActUbahFile: TAction
+      Caption = 'Ubah File'
+      ShortCut = 16497
+    end
+  end
+  object PMenu1: TPopupMenu
+    Left = 480
+    Top = 256
+    object OpenFile1: TMenuItem
+      Caption = 'Open File'
+      ShortCut = 16463
+    end
+    object EditFile1: TMenuItem
+      Caption = 'Edit File'
+      ShortCut = 16497
+    end
+    object DeleteFile1: TMenuItem
+      Caption = 'Delete File'
+      ShortCut = 8238
+    end
+    object N1: TMenuItem
+      Caption = '-'
+    end
+    object Save1: TMenuItem
+      Caption = 'Save'
+      ShortCut = 16467
+    end
+    object Delete1: TMenuItem
+      Caption = 'Delete'
+      ShortCut = 46
+    end
+    object Insert1: TMenuItem
+      Caption = 'Insert'
+      ShortCut = 16457
+    end
+    object Edit2: TMenuItem
+      Caption = 'Edit'
+      ShortCut = 113
+    end
+  end
+end
